@@ -1,0 +1,330 @@
+@media (max-width: 1200px) {
+  .Important-things__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  .Important-things__item-text {
+    max-width: 270px;
+  }
+  .tabs__content-item {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    margin-bottom: 25px;
+  }
+  .more-offers__title {
+    font-size: 19px;
+    line-height: 29px;
+  }
+  .tabs__button {
+    padding: 0 0 50px;
+    gap: 20px;
+  }
+  .Choose__title {
+    font-size: 32px;
+  }
+  .tabs__btn {
+    font-size: 19px;
+    line-height: 20px;
+  }
+}
+@media (max-width: 1100px) {
+.title{
+  font-size: 80px;
+    line-height: 100px;
+}
+.top_btn {
+        padding: 20px;
+        font-size: 28px;
+        line-height: 40px;
+}
+}
+@media (max-width: 992px) {
+  .Important-things__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  .important-things__item {
+    text-align: center;
+  }
+  .Important-things__item-text {
+    display: inline-block;
+  }
+  .Why-lease__title {
+    font-size: 35px;
+    line-height: 48px;
+  }
+  .Why-lease__linl {
+    font-size: 19px;
+    line-height: 24px;
+  }
+  .Why-lease__list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  /* ------------------------- */
+  .menu__btn {
+    display: flex;
+  }
+  .menu__btn,
+  .logo {
+    position: relative;
+    z-index: 10;
+  }
+  .menu__list {
+    background-color: #151515;
+    position: absolute;
+    z-index: 5;
+    flex-direction: column;
+    align-items: center;
+    top: 0;
+    /* left: 0; */
+    right: 0;
+    bottom: 0;
+    padding-top: 120px;
+    height: 120vh;
+    width: 55vh;
+    transform: translateY(-120%);
+    transition: transform 0.3s ease;
+  }
+  .menu__list.menu__list--active {
+    transform: translateY(0);
+  }
+  .more-offers__title {
+    font-size: 14px;
+    line-height: 29px;
+  }
+  /* -------------------------------- */
+}
+@media (max-width: 768px) {
+  .Important-things__list {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+  }
+  .Important-things__item-text {
+    padding-top: 20px;
+    display: flex;
+    margin: 0 auto;
+  }
+  .How-Does-Leasing-Work__text {
+    margin-left: 60px;
+  }
+  .How-Does-Leasing-Work__list {
+    margin-left: 20px;
+  }
+  .Why-lease__list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .footer__menu {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    text-align: center;
+  }
+  .more-offers__list {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 40px;
+  }
+  .more-offers__title {
+    font-size: 16px;
+    line-height: 29px;
+  }
+  .leasing__popup {
+    width: 100%;
+    height: 380px;
+    margin: 0 auto;
+    margin-bottom: 150px;
+  }
+  .tabs__button {
+    display: flex;
+    flex-direction: column;
+  }
+    .title {
+      font-size: 60px;
+      line-height: 90px;
+    }
+  
+    .top_btn {
+      padding: 18px;
+      font-size: 25px;
+      line-height: 38px;
+    }
+  .swiper-pagination-bullet {
+  width: 40px;
+  height: 3px;
+  }
+
+  .swiper-pagination-bullet-active {
+  width: 40px;
+  height: 3px;
+  }
+}
+@media (max-width: 622px) {
+  .tabs__content-item {
+    grid-template-columns: repeat(1, 1fr);
+    max-width: 80%;
+    margin-bottom: 25px;
+    margin: 25px auto;
+    gap: 25px;
+  }
+  .title {
+  font-size: 50px;
+  line-height: 90px;
+  }
+  .top_btn {
+  padding: 15px;
+  font-size: 20px;
+  line-height: 30px;
+  }
+  .top_btn {
+    text-align: center;
+    max-width: 280px;
+    /* display: inline-block; */
+    padding: 23px;
+    background: #151515;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 44px;
+    color: #ffffff;
+  }
+  .swiper-pagination-bullet {
+    width: 40px;
+    height: 3px;
+  }
+  .swiper-pagination-bullet-active {
+    width: 40px;
+    height: 3px;
+  }
+  .forn__input {
+    margin-left: 0px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+}
+@media (max-width: 560px) {
+  .How-Does-Leasing-Work__text {
+    margin-left: 30px;
+  }
+  .How-Does-Leasing-Work__list {
+    margin-left: 10px;
+  }
+  .How-Does-Leasing-Work__img {
+    max-width: 30%;
+  }
+  .How-Does-Leasing-Work__title-2 {
+    font-size: 19px;
+    line-height: 24px;
+  }
+  .How-Does-Leasing-Work__title {
+    font-size: 35px;
+    line-height: 48px;
+  }
+  .leasing__title {
+    font-size: 35px;
+    line-height: 48px;
+  }
+  .leasing__text {
+    font-size: 19px;
+    line-height: 29px;
+  }
+  .Important-things__title {
+    font-size: 30px;
+    line-height: 48px;
+  }
+  .Why-lease__list {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .Why-lease__img {
+    margin: 0 auto;
+    min-width: 50%;
+  }
+  .Why-lease__item {
+    margin: 0 auto;
+    max-width: 80%;
+  }
+  .footer__menu {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 40px;
+    text-align: center;
+  }
+  .footer__copy-link {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 70%;
+  }
+  .footer__copy-link {
+    margin-right: 20px;
+  }
+  .more-offers__link {
+    margin-left: 60px;
+  }
+  .contacts__title {
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 48px;
+    margin-bottom: 20px;
+  }
+  .contacts__text {
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 24px;
+    margin-bottom: 50px;
+    padding: 0 30px;
+  }
+  /* ------------------------- */
+  .menu__list {
+    height: 70vh;
+    width: 25vh;
+  }
+  .menu__list-link {
+    font-weight: 300;
+    font-size: 12px;
+  }
+  .menu__list-item {
+    gap: 10px;
+  }
+  .title {
+    font-size: 42px;
+  }
+  .top_btn {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 44px;
+    opacity: 0.9;
+  }
+  .top {
+    padding-top: 150px;
+    padding-bottom: 50px;
+  }
+  .leasing__popup {
+    width: 80%;
+    height: 250px;
+    margin: 0 auto;
+    margin-bottom: 150px;
+  }
+
+  /* -------------------------------- */
+}
+@media (max-width: 486px) {
+  .leasing__popup {
+    width: 100%;
+    height: 220px;
+    margin: 0 auto;
+    margin-bottom: 150px;
+  }
+  .title {
+  font-size: 38px;
+  line-height: 90px;
+  }
+
+  .top_btn {
+  padding: 12px;
+  font-size: 18px;
+  line-height: 28px;
+  }
+}
